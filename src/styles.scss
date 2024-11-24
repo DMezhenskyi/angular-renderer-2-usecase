@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+@import '@angular/cdk/overlay-prebuilt.css';
+html, body { height: 100%; }
+body {
+  margin: 0;
+  font-family: 'Fira Code',
+  "Helvetica Neue",
+  sans-serif;
+  background-color: #fafafa;
+  box-sizing: border-box;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  img {
+    margin-bottom: 50px;
+  }
+}

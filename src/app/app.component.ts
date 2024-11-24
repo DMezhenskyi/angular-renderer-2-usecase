@@ -1,12 +1,14 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { InputInteraction } from './input-interaction';
+import { inputAnimation } from './animation';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  imports: [InputInteraction],
+  animations: [inputAnimation],
+  template: `
+    <input interactive-input type="search" />
+  `,
+  styleUrls: ['./app.component.scss'],
 })
-export class AppComponent {
-  title = 'angular-renderer-2-usecase';
-}
+export class AppComponent {}
