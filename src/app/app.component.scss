@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  // overflow: scroll;
+  // overflow: hidden;
   width: 300px;
   background-color: #ccc;
   padding: 30px;
@@ -18,19 +18,4 @@ input {
   border: 2px solid #4d5559;
   border-radius: 7px;
   font-size: 21px;
-}
-.modal-container {
-  display: block;
-  position: absolute;
-  width: 300px;
-  min-height: 40px;
-  top: -51px;
-  background-color: rgba(#000, 0.85);
-  color: #fff;
-  padding: 5px 10px;
-  box-sizing: border-box;
-  border-radius: 10px;
-  font-size: 14px;
-  text-align: center;
-  line-height: 2;
 }
